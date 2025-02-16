@@ -15,10 +15,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: -31px;
 }
 
 .image-container img{
-    width: 100%;
+    width:  100%;
     height: 100%;
     border-radius: 50px;
 }
@@ -36,10 +37,6 @@ body{
 .bal-container{
     background-color: rgb(225, 152, 16);
     height: 175px;
-    width: 100%;
-    margin: auto;
-    text-wrap: wrap;
-    overflow: hidden;
 }
 
 .balance{
@@ -60,16 +57,16 @@ body{
 }
 
 .transfer-money{
-    padding: 8px 20px;
+    padding: 8px ;
 }
 
 .add-money{
-    padding: 8px 38px;
+    padding: 8px 30px;
 }
 
 canvas{
     max-width: 80%;
-    max-height: 300px;
+    max-height: 250px;
     margin-top: 30px;
 }
 
@@ -78,7 +75,6 @@ canvas{
     align-items: center;
     justify-content: center;
     background-color: azure;
-    width: 87%;
     margin:20px  auto;
     border-radius: 15px;
 }
@@ -91,7 +87,7 @@ canvas{
 }
 
 #Buy{
-    width: 100px;
+    width: 90px;
     height: 80px;
     background-color:azure;
     border-radius: 10px;
