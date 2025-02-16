@@ -1,7 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
-
+*{
+    margin: 0;
+}
 body{
     background-color: black;
     font-family: 'Poppins', sans-serif;   
@@ -25,23 +27,23 @@ body{
 }
 
 .client-name{
-    font-size: 19px;
+    font-size: 21px;
     font-weight: bold;
 }
 
 .trans-description{
    font-size: 17px;
-   font-weight: bold;
 }
 
 .bal-container{
     background-color: rgb(225, 152, 16);
-    height: 175px;
+    padding: 10px 20px;
 }
 
 .balance{
-    font-size: 40px;
+    font-size: 30px;
 }
+
 
 #trans-add-container{
     display: flex;
@@ -50,24 +52,23 @@ body{
     margin-top: 20px;
 }
 
-.transfer-money,.add-money{
+.transfer,.add{
     border-radius: 10px;
     font-weight: bold;
     cursor: pointer;
 }
 
-.transfer-money{
-    padding: 8px ;
+.transfer{
+    padding: 8px 10px;
 }
 
-.add-money{
+.add{
     padding: 8px 30px;
 }
 
 canvas{
     max-width: 80%;
-    max-height: 250px;
-    margin-top: 30px;
+    max-height: 240px;  
 }
 
 .CHART{
@@ -75,7 +76,7 @@ canvas{
     align-items: center;
     justify-content: center;
     background-color: azure;
-    margin:20px  auto;
+    margin:20px auto;
     border-radius: 15px;
 }
 
@@ -83,7 +84,7 @@ canvas{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 30px;
+    margin-top: -2px;
 }
 
 #Buy{
